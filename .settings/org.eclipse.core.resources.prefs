@@ -1,7 +1,16 @@
 eclipse.preferences.version=1
+encoding//.link_to_grails_plugins/ckeditor-4.4.1.0/grails-app/i18n/messages.properties=UTF-8
+encoding//.link_to_grails_plugins/ckeditor-4.4.1.0/grails-app/i18n/messages_it.properties=UTF-8
+encoding//.link_to_grails_plugins/ckeditor-4.4.1.0/grails-app/i18n/messages_zh_CN.properties=UTF-8
 encoding//.link_to_grails_plugins/content-buffer-1.0.1/grails-app/i18n/messages.properties=UTF-8
 encoding//.link_to_grails_plugins/crm-contact-2.0.2/grails-app/i18n/crm-contact.properties=UTF-8
 encoding//.link_to_grails_plugins/crm-contact-2.0.2/grails-app/i18n/crm-contact_sv.properties=UTF-8
+encoding//.link_to_grails_plugins/crm-contact-ui-2.0.0/grails-app/i18n/crm-contact-ui.properties=UTF-8
+encoding//.link_to_grails_plugins/crm-contact-ui-2.0.0/grails-app/i18n/crm-contact-ui_sv.properties=UTF-8
+encoding//.link_to_grails_plugins/crm-content-2.0.0/grails-app/i18n/crm-content.properties=UTF-8
+encoding//.link_to_grails_plugins/crm-content-2.0.0/grails-app/i18n/crm-content_sv.properties=UTF-8
+encoding//.link_to_grails_plugins/crm-content-ui-2.0.0/grails-app/i18n/crm-content-ui.properties=UTF-8
+encoding//.link_to_grails_plugins/crm-content-ui-2.0.0/grails-app/i18n/crm-content-ui_sv.properties=UTF-8
 encoding//.link_to_grails_plugins/crm-feature-2.0.0/grails-app/i18n/crm-feature.properties=UTF-8
 encoding//.link_to_grails_plugins/crm-feature-2.0.0/grails-app/i18n/crm-feature_sv.properties=UTF-8
 encoding//.link_to_grails_plugins/crm-i18n-2.0.0/grails-app/i18n/crm-i18n.properties=UTF-8

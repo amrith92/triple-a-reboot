@@ -41,6 +41,8 @@ class BootStrap {
 
         def admin = crmSecurityService.createUser([username: "admin", password: "admin",
                 email: "admin@thegeekmachine.co", name: "Admin", enabled: true])
+		def testUser = crmSecurityService.createUser([username: "test", password: "test",
+				email: "test@thegeekmachine.co", name: "Test", enabled: true])
 
         crmSecurityService.addPermissionAlias("permission.all", ["*:*"])
 
@@ -65,6 +67,9 @@ class BootStrap {
                         email: "larry@google.com", title: "Developer", true)
                 crmContactService.addRelation(larry, google, type2, true)
             }
+			crmSecurityService.runAs(testUser.username, tenant.id) {
+				crmSecurityService.addPermissionToUser("permission.all")
+			}
         }
     }
 
